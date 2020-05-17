@@ -3,11 +3,11 @@ Instructions
 
 Install the package with:
 
-    go get gopkg.in/check.v1
+    go get github.com/sylr/go-check/v2
     
 Import it with:
 
-    import "gopkg.in/check.v1"
+    import check "github.com/sylr/go-check/v2"
 
 and use _check_ as the package name inside the code.
 
@@ -17,4 +17,4 @@ For more details, visit the project page:
 
 and the API documentation:
 
-* https://gopkg.in/check.v1
+* https://github.com/sylr/go-check/v2

@@ -14,8 +14,9 @@ package check_test
 
 import (
 	"fmt"
-	"gopkg.in/check.v1"
 	"strings"
+
+	"github.com/sylr/go-check/v2"
 )
 
 type BootstrapS struct{}

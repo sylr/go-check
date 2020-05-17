@@ -4,11 +4,12 @@
 package check_test
 
 import (
-	"gopkg.in/check.v1"
 	"os"
 	"reflect"
 	"runtime"
 	"sync"
+
+	check "github.com/sylr/go-check/v2"
 )
 
 var helpersS = check.Suite(&HelpersS{})

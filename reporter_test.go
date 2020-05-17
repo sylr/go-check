@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	. "gopkg.in/check.v1"
+	. "github.com/sylr/go-check/v2"
 )
 
 var _ = Suite(&reporterS{})

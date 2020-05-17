@@ -4,7 +4,8 @@ package check_test
 
 import (
 	"time"
-	. "gopkg.in/check.v1"
+
+	. "github.com/sylr/go-check/v2"
 )
 
 var benchmarkS = Suite(&BenchmarkS{})
